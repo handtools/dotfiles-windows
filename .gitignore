@@ -1,34 +1,130 @@
-# Gradle files
+# ============================================
+# Windows system junk
+# ============================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ============================================
+# macOS / Apple device junk (USB drives, iCloud, etc.)
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# ============================================
+# Logs and temporary files
+# ============================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo
+
+# ============================================
+# Environment files (secrets, local overrides)
+# ============================================
+.env
+.env.*
+
+# ============================================
+# PowerShell artifacts
+# ============================================
+*.ps1xml
+*.psc1
+*.history
+*.pshistory
+*.psreadline
+PSReadLine/
+
+# ============================================
+# Java / JVM / Build tools (Gradle, Maven)
+# ============================================
+# Java bytecode / archives
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Gradle build output
 .gradle/
 build/
+!gradle/wrapper/gradle-wrapper.jar
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Maven build output
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
 
-# Log/OS Files
-*.log
+# ============================================
+# Python artifacts
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+venv/
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# ============================================
+# Node.js / JavaScript artifacts
+# ============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+dist/
+coverage/
 
-# IntelliJ
-*.iml
+# ============================================
+# Editor / IDE caches
+# ============================================
+.vscode/
+.vscode-test/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.suo
+*.user
+*.userosscache
+*.ntvs*
+*.njsproj
+*.sln.docstates
 
-# Keystore files
-*.jks
-*.keystore
+# ============================================
+# Office temporary files
+# ============================================
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+*.temp
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# ============================================
+# Scoop cache and artifacts
+# ============================================
+scoop/cache/
+scoop/apps/*/current/logs/
+scoop/buckets/*/scripts/*.log
 
-# Android Profiling
-*.hprof
+# ============================================
+# Git artifacts
+# ============================================
+.git/
+.gitignore~
+*.orig
+
+# ============================================
+# Miscellaneous
+# ============================================
